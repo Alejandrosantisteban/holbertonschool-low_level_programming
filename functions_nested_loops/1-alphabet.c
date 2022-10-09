@@ -6,6 +6,7 @@
  */
 void print_alphabet(void)
 {
+
 	int n;
 	for (n = 'a'; n <= 'z'; n++)
 	{
@@ -13,4 +14,3 @@ void print_alphabet(void)
 	}
 	_putchar('\n');
 }
-
