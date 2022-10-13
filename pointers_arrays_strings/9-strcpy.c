@@ -6,7 +6,7 @@
  * @src:  string
  *
  * Return: void
- *       */
+ */
 char *_strcpy(char *dest, char *src)
 {
 	int size;
