@@ -3,12 +3,12 @@
 /**
  * _strncat - Concatenates two strings using at most
  *            an inputted number of bytes from src.
- * @dest: The string to be apprended upon. 
+ * @dest: The string to be apprended upon.
  * @n: The number of bytes from src to be appended to dest.
  *
  * Return: A pointer to the resulting string dest.
  */
-char *_strcat(char *dest, char *src, int n)
+char *_strcat(char *dest, char *src)
 {
 	int index = 0, dest_len = 0;
 
