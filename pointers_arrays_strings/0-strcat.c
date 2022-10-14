@@ -10,7 +10,7 @@ char *_strcat(char *dest, char *src)
 {
 	int lend = 0, x;
 	int lens = 0;
-	
+
 	while (src[lens])
 		lens++;
 
@@ -22,4 +22,4 @@ char *_strcat(char *dest, char *src)
 		dest[lend + x] = src[x];
 	}
 	return (dest);
-}		
+}
