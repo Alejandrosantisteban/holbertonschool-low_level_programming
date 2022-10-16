@@ -1,4 +1,4 @@
-#include "main.c"
+#include "main.h"
 
 /**
  * _memcpy - copies memory area
@@ -8,14 +8,14 @@
  *
  * Return: char *
  */
-void *_memcpy(void *dest, const void *src, size_t n)
+char *_memcpy(char *dest, char *src, unsigned int n)
 {
-	unsigned int x;
-	unsigned char *destination = dest;
-	const unsigned char *source = src;
+		unsigned int i;
 
-	for (x = 0; x < n; x++)
-		destination[x] - source[x];
+			for (i = 0; i < n; i++)
+					{
+								dest[i] = src[i];
+									}
 
-	return (dest);
+				return (dest);
 }
