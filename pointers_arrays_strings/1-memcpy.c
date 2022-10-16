@@ -1,4 +1,4 @@
-#include "main.h"
+#include "main.c"
 
 /**
  * _memcpy - copies memory area
