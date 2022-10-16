@@ -2,7 +2,7 @@
 
 /**
  * reverse_array - reverses an array of integers
- * @a: array a 
+ * @a: array a
  * @n: an element of an array
  */
 void reverse_array(int *a, int n)
@@ -12,7 +12,7 @@ void reverse_array(int *a, int n)
 	for (index = n - 1; index >= n / 2; index--)
 	{
 		tmp = a[n - 1 - index];
-		a[n - 1 - index] = a [index];
-		a[ index] = tmp;
+		a[n - 1 - index] = a[index];
+		a[index] = tmp;
 	}
 }
