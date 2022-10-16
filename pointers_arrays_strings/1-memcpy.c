@@ -1,7 +1,5 @@
 #include "main.h"
 
-#include "main.h"
-
 /**
  * _memcpy - copies memory area
  * @dest: pointer to destinated memory area
