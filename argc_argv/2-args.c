@@ -8,11 +8,11 @@
  */
 int main(int argc, char *argv[])
 {
-	int x;
+	int i;
 
-	for (x = 0; x < argc; x++)
+	for (i = 0; i < argc; i++)
 	{
-		printf("argv index %d is = %s\n", x, argv[x]);
+		printf("argv index %d is = %s\n", i, argv[i]);
 	}
 	return (0);
 }
