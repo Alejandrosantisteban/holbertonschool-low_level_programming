@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include <stdlub.h>
+#include <stdlib.h>
 
 /**
  * main - this is a function to print its name
