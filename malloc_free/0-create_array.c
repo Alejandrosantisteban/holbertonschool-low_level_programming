@@ -26,7 +26,7 @@ char *create_array(unsigned int size, char c)
 	
 	else
 	{
-		position = o;
+		position = 0;
 		wile (position < size) /*while for array*/
 		{
 			*(buffer + position) = c;
