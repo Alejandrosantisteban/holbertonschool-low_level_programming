@@ -1,6 +1,5 @@
 #include <stdlib.h>
 #include "main.h"
-
 /**
  * str_concat - two strings together
  * @s1: first string
