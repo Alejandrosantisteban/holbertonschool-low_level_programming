@@ -23,11 +23,11 @@ char *create_array(unsigned int size, char c)
 	{
 		return (NULL);
 	}
-	
+
 	else
 	{
 		position = 0;
-		wile (position < size) /*while for array*/
+		while (position < size) /*while for array*/
 		{
 			*(buffer + position) = c;
 			position++;
@@ -35,3 +35,4 @@ char *create_array(unsigned int size, char c)
 
 		return (buffer);
 	}
+}
