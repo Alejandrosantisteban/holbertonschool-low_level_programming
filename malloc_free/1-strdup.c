@@ -1,4 +1,4 @@
-#include "main.h"
+#include <stdlib.h>
 #include "main.h"
 
 /**
@@ -6,7 +6,7 @@
  * @str: pointer to a string
  * Return: ptr
  */
-char *strdup(char *str)
+char *_strdup(char *str)
 {
 	unsigned int i = 0, j;
 
